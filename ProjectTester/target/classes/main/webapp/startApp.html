@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Home Page</title>
+</head>
+<body>
+	<form action="addUnitServlet" method="post">
+	Unit Name: <input type="text" name="unitName">
+	Unit Type: <input type="text" name="unitType">
+	Unit Cost: <input type="text" name="unitCost">
+	<input type="submit" value="Add Unit">
+	</form> <br />
+	
+	<form action="viewAllUnitsServlet">
+    <input type="submit" value="View the complete list" />
+	</form>
+	
+	<form action="viewAllListsServlet">
+    <input type="submit" value="View all player lists" />
+	</form>
+	
+	<form action="addUnitsForListServlet">
+    <input type="submit" value="Create a new list" />
+	</form>
+</body>
+</html>
